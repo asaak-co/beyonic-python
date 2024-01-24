@@ -1,7 +1,7 @@
 # Beyonic API Python bindings
 
 # Default values if any
-DEFAULT_ENDPOINT_BASE = 'https://app.beyonic.com/api/'
+DEFAULT_ENDPOINT_BASE = 'https://api.mfsafrica.com/api/'
 
 # Config
 api_key = None
@@ -20,4 +20,4 @@ from beyonic.apis.transaction import Transaction
 from beyonic.apis.network import Network
 from beyonic.apis.currency import Currency
 
-__version__ = "0.1.15"
+__version__ = "0.1.16"
